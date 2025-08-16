@@ -98,4 +98,6 @@ form input[type="submit"]:hover {
   float: right;
   color: var(--main-color);
   margin: 10px 0;
+  text-decoration: none;
+  color: var(--main-color);
 }
