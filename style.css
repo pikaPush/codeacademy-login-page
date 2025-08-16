@@ -41,3 +41,10 @@ input[type="password"] {
   font-size: 20px;
   font-family: "Nunito", sans-serif;
 }
+
+form a {
+  margin: 10px 0;
+  text-decoration: none;
+  color: var(--main-color);
+  font-weight: bold;
+}
