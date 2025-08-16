@@ -6,7 +6,7 @@
 
 :root {
   --main-color: #6400e4;
-  box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.34);
+  --box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.34);
   --hover-shadow: 0 4px 4px 0 rgba(3, 3, 3, 0.561);
   --nav-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   --light-black: #141c3a;
@@ -47,4 +47,21 @@ form a {
   text-decoration: none;
   color: var(--main-color);
   font-weight: bold;
+}
+
+form input[type="submit"] {
+  height: 50px;
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 3px;
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  box-shadow: var(--hover-shadow);
+  transform: translateY(-3px);
 }
