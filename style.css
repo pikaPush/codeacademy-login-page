@@ -47,6 +47,7 @@ form a {
   text-decoration: none;
   color: var(--main-color);
   font-weight: bold;
+  text-align: right;
 }
 
 form input[type="submit"] {
@@ -69,6 +70,7 @@ form input[type="submit"]:hover {
 .footer h3 {
   font-size: 16px;
   opacity: 0.9;
+  text-align: center;
 }
 
 .footer .images {
@@ -90,4 +92,10 @@ form input[type="submit"]:hover {
 
 .footer .images img:hover {
   box-shadow: var(--hover-shadow);
+}
+
+.footer a {
+  float: right;
+  color: var(--main-color);
+  margin: 10px 0;
 }
